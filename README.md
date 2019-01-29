@@ -207,7 +207,7 @@ by using command `sudo nano [file you want add]` and change the database engine 
 ### Running the Item catalog application in server :
 IF you close your terminal do as following
 - `cd .ssh`
-- login with the grader account using ssh type ssh -i ~/.ssh/udacity.rsa grader@[your public ID] -p 2200 you vave log in as grader@ip-[your private IP]:~$
+- login with the grader account using ssh type `ssh -i ~/.ssh/udacity.rsa grader@[your public ID] -p 2200 `you log in as `grader@ip-[your private IP]:~$`
 - `cd /var/www/catalog/catalog`
 -run `python database_setup.py`
 -run `python seeder.py`
